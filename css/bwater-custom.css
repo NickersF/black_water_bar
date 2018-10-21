@@ -1,0 +1,268 @@
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
+*/
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
+
+   This file contains variables to the colors for the site.
+
+*/
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
+
+   This class module contains specific link stylings across the site.
+*/
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
+
+   This file contains variables to the colors for the site.
+
+*/
+.bw-nav a {
+  color: #B71C1C;
+  font-size: 1.875rem;
+  text-decoration: underline;
+  text-decoration-style: solid; }
+
+.bw-nav a:visited {
+  color: #B71C1C;
+  font-size: 1.875rem; }
+
+.bw-nav a:focus {
+  color: #EFEBE9;
+  font-size: 1.875rem;
+  text-decoration: none; }
+
+.bw-nav a:hover {
+  color: #EFEBE9;
+  font-size: 1.875rem; }
+
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
+
+   This class module contains styles and rules for the events module
+*/
+.event-date-time {
+  color: #D32F2F; }
+
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
+
+   This class module contains image filters and manipulations.
+*/
+.grayscale-tn {
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1); }
+
+.grayscale-tn:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0); }
+
+.right-logo-scale {
+  height: 256px;
+  width: 256px; }
+
+.drink-svg-sizer {
+  height: 117px;
+  width: 256px; }
+
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
+
+   This class module describes how the top grid that contains the corner logo, menu and events module
+
+*/
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
+
+   This file contains variables to the colors for the site.
+
+*/
+.header-container-base {
+  padding: 0;
+  margin: 0; }
+
+.header-row-pad-reset {
+  color: #EFEBE9;
+  background-color: #212121;
+  padding: 0;
+  margin: 12px; }
+
+.col-pad-six {
+  color: #EFEBE9;
+  background-color: #212121;
+  padding: 6px; }
+
+/* ---- MENU CLASSES ---- */
+.header-menu-zero {
+  padding: 0;
+  margin: 0; }
+
+.col-pad-zero {
+  color: #EFEBE9;
+  background-color: #212121;
+  padding: 0;
+  margin: 0; }
+
+.nav-link-size {
+  font-size: 3rem; }
+
+.nav-link-padding {
+  padding-right: 6px; }
+
+/* ---- ADDRESS SPECIFIC CLASSES ---- */
+.address-bottom-marg-zero {
+  margin-bottom: 0; }
+
+/* ---- EVENT SPECIFIC CLASSES ---- */
+.event-color-inversion {
+  color: #212121;
+  background-color: #EFEBE9; }
+
+.event-base-padder {
+  padding: 12px; }
+
+.event-padder {
+  padding: 12px; }
+
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
+
+   This class module describes how the top grid that contains the corner logo, menu and events module
+
+*/
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
+
+   This file contains variables to the colors for the site.
+
+*/
+.body-container-base {
+  padding: 0;
+  margin: 0; }
+
+.body-row-pad-reset {
+  color: #EFEBE9;
+  background-color: #212121;
+  padding: 0;
+  margin: 12px; }
+
+.media-base-padder {
+  padding: 12px; }
+
+.body-media-zero {
+  padding: 0;
+  margin: 0; }
+
+.media-padder {
+  padding: 12px; }
+
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
+
+   This class module describes the drinks section
+
+*/
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
+
+   This file contains variables to the colors for the site.
+
+*/
+.content-sub-heading {
+  font-size: 3rem;
+  padding-top: 12px; }
+
+.content-individual-item {
+  font-size: 1.30rem;
+  padding-left: 12px;
+  padding-top: 6px; }
+
+.item-name {
+  margin-right: 10%; }
+
+/* ---- EVENT CALENDAR CLASSES ---- */
+.eventtitle {
+  font-size: 1.5rem;
+  padding-right: 6px;
+  padding-left: 6px; }
+
+.eventdate {
+  color: #B71C1C;
+  padding-right: 6px;
+  padding-left: 6px; }
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #212121;
+  background-color: #EFEBE9; }
+
+.cabazon {
+  font-family: cabazon, serif;
+  font-weight: 500;
+  font-style: normal; }
+
+.amador {
+  font-family: amador, sans-serif;
+  font-weight: 400;
+  font-style: normal; }
+
+.typew {
+  font-family: "coronette", sans-serif; }
+
+.mono45-reg {
+  font-family: mono45-headline, monospace;
+  font-weight: 400;
+  font-style: normal; }
+
+.mono45-bold {
+  font-family: mono45-headline, monospace;
+  font-weight: 700;
+  font-style: normal; }
+
+.small-svg {
+  width: 256px;
+  height: 265px; }
+
+.medium-svg {
+  width: 350px;
+  height: 350px; }
+
+.large-svg {
+  width: 450px;
+  height: 450px; }
+
+.menu-border-right {
+  border-right: 1px solid #CCC; }
+
+.menu-border-left {
+  border-left: 1px solid #CCC; }
+
+.menu-border-bottom {
+  border-bottom: 1px solid #CCC; }
+
+.splash-address {
+  padding-top: 64px; }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .eventtitle {
+    font-size: 1rem; }
+
+  .eventdate {
+    font-size: .75rem; } }
+
+/*# sourceMappingURL=bwater-custom.css.map */

@@ -1,0 +1,31 @@
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
+
+   This class module contains specific link stylings across the site.
+*/
+
+@import 'bwater-custom-colors';
+
+.bw-nav a {
+    color: $red;
+    font-size: 1.875rem;
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+
+.bw-nav a:visited {
+    color: $red;
+    font-size: 1.875rem;
+}
+
+.bw-nav a:focus {
+    color: $hinted_white;
+    font-size: 1.875rem;
+    text-decoration: none;
+}
+
+.bw-nav a:hover {
+    color: $hinted_white;
+    font-size: 1.875rem;
+}

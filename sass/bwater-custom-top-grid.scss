@@ -1,0 +1,84 @@
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
+
+   This class module describes how the top grid that contains the corner logo, menu and events module
+
+*/
+
+@import 'bwater-custom-colors';
+
+// Font and background color mixin
+@mixin set_dark {
+    color: $hinted_white;
+    background-color: $dark_grey;
+}
+
+@mixin set_light {
+    color: $dark_grey;
+    background-color: $hinted_white;
+}
+
+@mixin pad_marg_zero {
+    padding: 0;
+    margin: 0;
+}
+// Resets the header container to zero
+.header-container-base {
+    @include pad_marg_zero();
+}
+
+// Sets a 12px margin to the entire header module
+.header-row-pad-reset {
+    @include set_dark();
+    padding: 0;
+    margin: 12px;
+}
+
+.col-pad-six {
+    @include set_dark();
+    padding: 6px;
+}
+
+/* ---- MENU CLASSES ---- */
+
+// Set the menu row to zero margin and padding
+.header-menu-zero {
+    @include pad_marg_zero();
+}
+
+// Zeros a column (might not be needed)
+.col-pad-zero {
+    @include set_dark();
+    @include pad_marg_zero();
+}
+
+// Nav link size:
+.nav-link-size {
+    font-size: 3rem;
+}
+
+.nav-link-padding {
+    padding-right: 6px;
+}
+
+/* ---- ADDRESS SPECIFIC CLASSES ---- */
+
+.address-bottom-marg-zero {
+    margin-bottom: 0;
+}
+
+/* ---- EVENT SPECIFIC CLASSES ---- */
+
+// Class to set background in events to hinted white
+.event-color-inversion {
+    @include set_light();
+}
+
+// Pads the main column that contains the event row
+.event-base-padder {
+    padding: 12px;
+}
+.event-padder {
+    padding: 12px;
+}

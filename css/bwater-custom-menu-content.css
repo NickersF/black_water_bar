@@ -1,0 +1,38 @@
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
+
+   This class module describes the drinks section
+
+*/
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
+
+   This file contains variables to the colors for the site.
+
+*/
+.content-sub-heading {
+  font-size: 3rem;
+  padding-top: 12px; }
+
+.content-individual-item {
+  font-size: 1.30rem;
+  padding-left: 12px;
+  padding-top: 6px; }
+
+.item-name {
+  margin-right: 10%; }
+
+/* ---- EVENT CALENDAR CLASSES ---- */
+.eventtitle {
+  font-size: 1.5rem;
+  padding-right: 6px;
+  padding-left: 6px; }
+
+.eventdate {
+  color: #B71C1C;
+  padding-right: 6px;
+  padding-left: 6px; }
+
+/*# sourceMappingURL=bwater-custom-menu-content.css.map */

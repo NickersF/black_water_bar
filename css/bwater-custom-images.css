@@ -1,0 +1,23 @@
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
+
+   This class module contains image filters and manipulations.
+*/
+.grayscale-tn {
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1); }
+
+.grayscale-tn:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0); }
+
+.right-logo-scale {
+  height: 256px;
+  width: 256px; }
+
+.drink-svg-sizer {
+  height: 117px;
+  width: 256px; }
+
+/*# sourceMappingURL=bwater-custom-images.css.map */

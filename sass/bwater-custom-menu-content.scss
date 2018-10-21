@@ -1,0 +1,56 @@
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
+
+   This class module describes the drinks section
+
+*/
+
+@import 'bwater-custom-colors';
+
+// Font and background color mixin
+@mixin set_dark {
+    color: $hinted_white;
+    background-color: $dark_grey;
+}
+
+@mixin set_light {
+    color: $dark_grey;
+    background-color: $hinted_white;
+}
+
+@mixin pad_marg_zero {
+    padding: 0;
+    margin: 0;
+}
+
+// Set rules for sub section heading
+.content-sub-heading {
+    font-size: 3rem;
+    padding-top: 12px;
+}
+
+.content-individual-item {
+    font-size: 1.30rem;
+    padding-left: 12px;
+    padding-top: 6px;
+}
+
+.item-name {
+    margin-right: 10%;
+}
+
+/* ---- EVENT CALENDAR CLASSES ---- */
+
+// Set the event title style
+.eventtitle {
+    font-size: 1.5rem;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+.eventdate {
+    color: $red;
+    padding-right: 6px;
+    padding-left: 6px;
+}

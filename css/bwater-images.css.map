@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAKA,aAAc;EACV,MAAM,EAAE,YAAY;EACpB,cAAc,EAAE,YAAY;;AAGhC,mBAAoB;EAChB,MAAM,EAAE,YAAY;EACpB,cAAc,EAAE,YAAY",
+"sources": ["../sass/bwater-images.scss"],
+"names": [],
+"file": "bwater-images.css"
+}

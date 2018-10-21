@@ -1,0 +1,9 @@
+.grayscale-tn {
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1); }
+
+.grayscale-tn:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0); }
+
+/*# sourceMappingURL=bwater-images.css.map */
