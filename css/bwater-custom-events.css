@@ -2,9 +2,35 @@
    =========================
    Custom CSS rules for the Black Water Bar site
 
-   This class module contains styles and rules for the events module
+   This class module contains styles and rules for the events modules
 */
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
+
+   This file contains variables to the colors for the site.
+
+*/
+/* ---- EVENT CALENDAR CLASSES ---- */
+.eventtitle {
+  font-size: 1.5rem;
+  padding-right: 6px;
+  padding-left: 6px; }
+
+.eventdate {
+  color: #B71C1C;
+  padding-right: 6px;
+  padding-left: 6px; }
+
 .event-date-time {
   color: #D32F2F; }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .eventtitle {
+    font-size: 1rem; }
+
+  .eventdate {
+    font-size: .75rem; } }
 
 /*# sourceMappingURL=bwater-custom-events.css.map */

@@ -13,26 +13,19 @@
 
 */
 .content-sub-heading {
-  font-size: 3rem;
-  padding-top: 12px; }
-
-.content-individual-item {
-  font-size: 1.30rem;
-  padding-left: 12px;
-  padding-top: 6px; }
+  font-size: 3rem; }
 
 .item-name {
-  margin-right: 10%; }
+  font-size: 1.30rem; }
 
-/* ---- EVENT CALENDAR CLASSES ---- */
-.eventtitle {
-  font-size: 1.5rem;
-  padding-right: 6px;
-  padding-left: 6px; }
+.item-price {
+  font-size: 1.30rem;
+  padding: 0; }
 
-.eventdate {
-  color: #B71C1C;
-  padding-right: 6px;
-  padding-left: 6px; }
+.item-description {
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+  color: #B71C1C; }
 
 /*# sourceMappingURL=bwater-custom-menu-content.css.map */

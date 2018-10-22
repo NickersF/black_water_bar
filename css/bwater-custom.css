@@ -45,11 +45,36 @@
    =========================
    Custom CSS rules for the Black Water Bar site
 
-   This class module contains styles and rules for the events module
+   This class module contains styles and rules for the events modules
 */
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
+
+   This file contains variables to the colors for the site.
+
+*/
+/* ---- EVENT CALENDAR CLASSES ---- */
+.eventtitle {
+  font-size: 1.5rem;
+  padding-right: 6px;
+  padding-left: 6px; }
+
+.eventdate {
+  color: #B71C1C;
+  padding-right: 6px;
+  padding-left: 6px; }
+
 .event-date-time {
   color: #D32F2F; }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .eventtitle {
+    font-size: 1rem; }
+
+  .eventdate {
+    font-size: .75rem; } }
 /* Author Nicholas Fazzolari
    =========================
    Custom CSS rules for the Black Water Bar site
@@ -160,12 +185,12 @@
 .media-base-padder {
   padding: 12px; }
 
+.media-padder {
+  padding: 12px; }
+
 .body-media-zero {
   padding: 0;
   margin: 0; }
-
-.media-padder {
-  padding: 12px; }
 
 /* Author Nicholas Fazzolari
    =========================
@@ -182,27 +207,20 @@
 
 */
 .content-sub-heading {
-  font-size: 3rem;
-  padding-top: 12px; }
-
-.content-individual-item {
-  font-size: 1.30rem;
-  padding-left: 12px;
-  padding-top: 6px; }
+  font-size: 3rem; }
 
 .item-name {
-  margin-right: 10%; }
+  font-size: 1.30rem; }
 
-/* ---- EVENT CALENDAR CLASSES ---- */
-.eventtitle {
-  font-size: 1.5rem;
-  padding-right: 6px;
-  padding-left: 6px; }
+.item-price {
+  font-size: 1.30rem;
+  padding: 0; }
 
-.eventdate {
-  color: #B71C1C;
-  padding-right: 6px;
-  padding-left: 6px; }
+.item-description {
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+  color: #B71C1C; }
 
 body {
   margin: 0;
@@ -245,24 +263,7 @@ body {
   width: 450px;
   height: 450px; }
 
-.menu-border-right {
-  border-right: 1px solid #CCC; }
-
-.menu-border-left {
-  border-left: 1px solid #CCC; }
-
-.menu-border-bottom {
-  border-bottom: 1px solid #CCC; }
-
 .splash-address {
   padding-top: 64px; }
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .eventtitle {
-    font-size: 1rem; }
-
-  .eventdate {
-    font-size: .75rem; } }
 
 /*# sourceMappingURL=bwater-custom.css.map */

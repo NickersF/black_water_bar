@@ -68,31 +68,8 @@ body {
     height: 450px;
 }
 
-// Menu borders
-.menu-border-right {
-    border-right: 1px solid #CCC;
-}
-
-.menu-border-left {
-    border-left: 1px solid #CCC;
-}
-
-.menu-border-bottom {
-    border-bottom: 1px solid #CCC;
-}
-
 // Custom height and padding for splash address
 .splash-address {
     padding-top: 64px;
 }
 
-// Media query for mobile text
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .eventtitle {
-        font-size: 1rem;
-    }   
-    .eventdate {
-        font-size: .75rem;
-    }
-}

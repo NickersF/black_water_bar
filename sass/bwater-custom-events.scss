@@ -2,9 +2,38 @@
    =========================
    Custom CSS rules for the Black Water Bar site
 
-   This class module contains styles and rules for the events module
+   This class module contains styles and rules for the events modules
 */
+
+@import 'bwater-custom-colors';
+
+/* ---- EVENT CALENDAR CLASSES ---- */
+
+// Set the event styles
+.eventtitle {
+    font-size: 1.5rem;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+.eventdate {
+    color: $red;
+    padding-right: 6px;
+    padding-left: 6px;
+}
 
 .event-date-time {
     color: #D32F2F;
+}
+
+// Media query for mobile text on event boxes
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .eventtitle {
+        font-size: 1rem;
+    }   
+    .eventdate {
+        font-size: .75rem;
+    }
 }

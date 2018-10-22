@@ -24,33 +24,26 @@
     margin: 0;
 }
 
-// Set rules for sub section heading
+// Set the font style for the sub heading in the menu
 .content-sub-heading {
     font-size: 3rem;
-    padding-top: 12px;
 }
 
-.content-individual-item {
-    font-size: 1.30rem;
-    padding-left: 12px;
-    padding-top: 6px;
-}
-
+// Set font styles for individual items in the menus
 .item-name {
-    margin-right: 10%;
+    font-size: 1.30rem;
 }
 
-/* ---- EVENT CALENDAR CLASSES ---- */
-
-// Set the event title style
-.eventtitle {
-    font-size: 1.5rem;
-    padding-right: 6px;
-    padding-left: 6px;
+// Set the font styles for the price of an item
+.item-price {
+    font-size: 1.30rem;
+    padding: 0;
 }
 
-.eventdate {
+// Set the font styles for the description of an item
+.item-description {
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
     color: $red;
-    padding-right: 6px;
-    padding-left: 6px;
 }
