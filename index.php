@@ -122,6 +122,33 @@
             </div>
         </div>
 
+        <!-- Begin food container -->
+        <div id="food" class="container-fluid body-container-base">
+            <div class="row body-row-pad-reset">
+                <div class="col-lg-auto col-pad-six d-flex justify-content-center">
+                    <img class="drink-svg-sizer img-fluid" src="./img/food.svg">
+                </div>
+                <div class="col-lg-6 col-pad-six">
+
+                    <!-- Begin sub section title -->
+                    <div class="amador text-center">
+                        <h1 class="content-sub-heading">Sub Item</h1>
+                    </div>
+                    <!-- End sub section title -->
+
+                    <!-- Begin individual item -->
+                    <div class="content-individual-item mono45-reg">
+                        <span class="item-name">Item name</span> <span>Item Price</span>
+                    </div>
+                    <!-- End individual item -->
+                </div>
+                <div class="col twelve-padder text-center">
+                    <img class="img-fluid right-side-border" src="./img/home-page-img/shot3.PNG">
+                </div>
+            </div>
+        </div>
+        <!-- End food container -->
+
         <!-- Begin drinks container -->
         <div id="drinks" class="container-fluid body-container-base">
             <div class="row body-row-pad-reset">
@@ -143,12 +170,8 @@
                     <?php perch_content('straight_edge'); ?>
 
                 </div>
-                <div class="col media-base-padder">
-                    <div class="row body-media-zero media-padder event-color-inversion">
-                        <div class="col body-media-zero d-flex justify-content-center">
-                            <img class="img-fluid img" src="./img/home-page-img/shot11.PNG">
-                        </div>
-                    </div>
+                <div class="col twelve-padder text-center">
+                    <img class="img-fluid right-side-border" src="./img/home-page-img/shot11.PNG">
                 </div>
             </div>
         </div>
@@ -174,12 +197,8 @@
                     </div>
                     <!-- End individual item -->
                 </div>
-                <div class="col media-base-padder">
-                    <div class="row body-media-zero media-padder event-color-inversion">
-                        <div class="col body-media-zero d-flex justify-content-center">
-                            <img class="img-fluid img" src="./img/home-page-img/shot3.PNG">
-                        </div>
-                    </div>
+                <div class="col twelve-padder text-center">
+                    <img class="img-fluid right-side-border" src="./img/home-page-img/shot3.PNG">
                 </div>
             </div>
         </div>
@@ -204,12 +223,8 @@
                         </div>
                         <!-- End event listing -->
                     </div>
-                    <div class="col media-base-padder">
-                        <div class="row body-media-zero media-padder event-color-inversion">
-                            <div class="col body-media-zero d-flex justify-content-center">
-                                <img class="img-fluid img" src="./img/home-page-img/shot5.PNG">
-                            </div>
-                        </div>
+                    <div class="col twelve-padder text-center">
+                        <img class="img-fluid right-side-border" src="./img/home-page-img/shot5.PNG">
                     </div>
                 </div>
             </div>

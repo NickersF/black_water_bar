@@ -4,6 +4,13 @@
 
    This class module contains image filters and manipulations.
 */
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
+
+   This file contains variables to the colors for the site.
+
+*/
 .grayscale-tn {
   filter: grayscale(1);
   -webkit-filter: grayscale(1); }
@@ -19,5 +26,8 @@
 .drink-svg-sizer {
   height: 117px;
   width: 256px; }
+
+.right-side-border {
+  border: 12px #EFEBE9 solid; }
 
 /*# sourceMappingURL=bwater-custom-images.css.map */

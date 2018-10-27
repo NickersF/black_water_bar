@@ -36,15 +36,6 @@
     margin: 12px;
 }
 
-// Right side main section image settings
-.media-base-padder {
+.twelve-padder {
     padding: 12px;
-}
-
-.media-padder {
-    padding: 12px;
-}
-
-.body-media-zero {
-    @include pad_marg_zero();
 }

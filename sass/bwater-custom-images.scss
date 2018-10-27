@@ -5,6 +5,8 @@
    This class module contains image filters and manipulations.
 */
 
+@import 'bwater-custom-colors';
+
 // Hover effect for images
 .grayscale-tn {
     filter: grayscale(1);
@@ -25,4 +27,9 @@
 .drink-svg-sizer {
     height: 117px;
     width: 256px;
+}
+
+// Bordering for images
+.right-side-border {
+    border: 12px $hinted_white solid;
 }
