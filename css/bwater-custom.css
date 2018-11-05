@@ -1,6 +1,16 @@
+@charset "UTF-8";
 /* Author Nicholas Fazzolari
    =========================
    Custom CSS rules for the Black Water Bar site
+
+   TODO:
+    ΓÇó Implement a type style and color rule set ΓåÆ bwater-typography.scss
+    ΓÇó Implement global rule set (consolidate and deprecate certain unused and redundant files [ index rules ] ) ΓåÆ bwater-global-rules.scss
+    ΓÇó Implement food rule set ΓåÆ bwater-food-rules.scss
+    ΓÇó Implement drink rule set ΓåÆ bwater-drink-rules.scss
+    ΓÇó Implement events rule set ΓåÆ bwater-events
+    ΓÇó Rename images (remove the custom tags)
+    ΓÇó Remove the custom in all scss files to shorten the names
 */
 /* Author Nicholas Fazzolari
    =========================
@@ -65,9 +75,6 @@
   padding-right: 6px;
   padding-left: 6px; }
 
-.event-date-time {
-  color: #D32F2F; }
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .eventtitle {
@@ -107,6 +114,18 @@
 .right-side-border {
   border: 12px #EFEBE9 solid; }
 
+.small-svg {
+  width: 256px;
+  height: 265px; }
+
+.medium-svg {
+  width: 350px;
+  height: 350px; }
+
+.large-svg {
+  width: 450px;
+  height: 450px; }
+
 /* Author Nicholas Fazzolari
    =========================
    Custom CSS rules for the Black Water Bar site
@@ -119,6 +138,13 @@
    Custom CSS rules for the Black Water Bar site
 
    This file contains variables to the colors for the site.
+
+*/
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
+
+   This class module describes how the top grid that contains the corner logo, menu and events module
 
 */
 .header-container-base {
@@ -182,6 +208,13 @@
    This file contains variables to the colors for the site.
 
 */
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
+
+   This class module describes how the top grid that contains the corner logo, menu and events module
+
+*/
 .body-container-base {
   padding: 0;
   margin: 0; }
@@ -209,15 +242,18 @@
    This file contains variables to the colors for the site.
 
 */
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
+
+   This class module describes how the top grid that contains the corner logo, menu and events module
+
+*/
 .content-sub-heading {
   font-size: 3rem; }
 
 .item-name {
-  font-size: 1.30rem; }
-
-.item-price {
-  font-size: 1.30rem;
-  padding: 0; }
+  margin-bottom: 0; }
 
 .item-description {
   font-size: 1rem;
@@ -225,12 +261,12 @@
   margin: 0;
   color: #B71C1C; }
 
-body {
-  margin: 0;
-  padding: 0;
-  color: #212121;
-  background-color: #EFEBE9; }
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
 
+   This class module contains styles and rules for the sitewide typography
+*/
 .cabazon {
   font-family: cabazon, serif;
   font-weight: 500;
@@ -254,19 +290,10 @@ body {
   font-weight: 700;
   font-style: normal; }
 
-.small-svg {
-  width: 256px;
-  height: 265px; }
-
-.medium-svg {
-  width: 350px;
-  height: 350px; }
-
-.large-svg {
-  width: 450px;
-  height: 450px; }
-
-.splash-address {
-  padding-top: 64px; }
+body {
+  margin: 0;
+  padding: 0;
+  color: #212121;
+  background-color: #EFEBE9; }
 
 /*# sourceMappingURL=bwater-custom.css.map */

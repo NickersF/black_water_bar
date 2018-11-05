@@ -30,4 +30,16 @@
 .right-side-border {
   border: 12px #EFEBE9 solid; }
 
+.small-svg {
+  width: 256px;
+  height: 265px; }
+
+.medium-svg {
+  width: 350px;
+  height: 350px; }
+
+.large-svg {
+  width: 450px;
+  height: 450px; }
+
 /*# sourceMappingURL=bwater-custom-images.css.map */

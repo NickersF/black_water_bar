@@ -1,12 +1,24 @@
-<!-- Begin row for drinks sub heading -->
-<h1 class="amador text-center content-sub-heading"><perch:content id="heading" type="smarttext" label="Section heading" help="Sets the name of the drink menu section" /></h1>
-<!-- End row for drinks sub heading -->
-
-<!-- Begin row for individual drink items (start perch repeater) -->
-<perch:repeater id="drink_item" label="Cocktail Item" max="100">
-    <div class="mono45-bold item-name"><perch:content id="cocktail_item_name" type="smarttext" label="cocktail name" />
-        <span class="mono45-reg item-price"><perch:content id="cocktail_item_price" type="smarttext" label="cocktail price" /> </span>
+<!-- Begin menu template structure -->
+<div class="row">
+    <div class="col-lg text-center amador">
+        <h1><perch:content id="heading" type="smarttext" label="Section heading" help="Sets the name of the drink menu section" /></h1>
     </div>
-    <div class="mono45-reg item-description"><perch:content id="cocktail_item_description" type="smarttext" label="cocktail description" /></div>
+</div>
+<!-- Item Row (will need different layouts for different categories, tackle cocktails first) -->
+<perch:repeater id="drink_item" label="Cocktail Item" max="100">
+<div class="row">
+    <div class="col-lg mono45-bold">
+        <h2 class="item-name"><perch:content id="cocktail_item_name" type="smarttext" label="cocktail name" /></h2>
+    </div>
+    
+    <div class="col-lg-6 mono45-reg">
+        <h2><perch:content id="cocktail_item_price" type="smarttext" label="cocktail price" /></h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg mono45-reg event-date-time">
+        <p><perch:content id="cocktail_item_description" type="smarttext" label="cocktail description" /></p>
+    </div>
+</div>
 </perch:repeater>
-<!-- End row for individual drink items  (end perch repeater)-->
+<!-- End menu template strucutre -->

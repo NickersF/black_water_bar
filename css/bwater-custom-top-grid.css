@@ -12,6 +12,13 @@
    This file contains variables to the colors for the site.
 
 */
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
+
+   This class module describes how the top grid that contains the corner logo, menu and events module
+
+*/
 .header-container-base {
   padding: 0;
   margin: 0; }

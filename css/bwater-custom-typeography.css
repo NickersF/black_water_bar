@@ -1,0 +1,30 @@
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
+
+   This class module contains styles and rules for the sitewide typography
+*/
+.cabazon {
+  font-family: cabazon, serif;
+  font-weight: 500;
+  font-style: normal; }
+
+.amador {
+  font-family: amador, sans-serif;
+  font-weight: 400;
+  font-style: normal; }
+
+.typew {
+  font-family: "coronette", sans-serif; }
+
+.mono45-reg {
+  font-family: mono45-headline, monospace;
+  font-weight: 400;
+  font-style: normal; }
+
+.mono45-bold {
+  font-family: mono45-headline, monospace;
+  font-weight: 700;
+  font-style: normal; }
+
+/*# sourceMappingURL=bwater-custom-typeography.css.map */

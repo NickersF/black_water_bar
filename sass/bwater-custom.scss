@@ -1,6 +1,15 @@
 /* Author Nicholas Fazzolari
    =========================
    Custom CSS rules for the Black Water Bar site
+
+   TODO:
+    • Implement a type style and color rule set → bwater-typography.scss
+    • Implement global rule set (consolidate and deprecate certain unused and redundant files [ index rules ] ) → bwater-global-rules.scss
+    • Implement food rule set → bwater-food-rules.scss
+    • Implement drink rule set → bwater-drink-rules.scss
+    • Implement events rule set → bwater-events
+    • Rename images (remove the custom tags)
+    • Remove the custom in all scss files to shorten the names
 */
 
 @import 'bwater-custom-colors';
@@ -10,6 +19,7 @@
 @import 'bwater-custom-top-grid';
 @import 'bwater-custom-index';
 @import 'bwater-custom-menu-content';
+@import 'bwater-custom-typeography';
 
 // Black background and white font
 body {
@@ -18,58 +28,3 @@ body {
     color: #212121;                 // Creamy off white
     background-color: #EFEBE9;      // Not full black - just a bit hinted
 }
-
-// Adobe Fonts web font classes
-
-// Cabazon - Old german style script font
-.cabazon {
-    font-family: cabazon, serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
-// Amador - Old german style script font for headlines
-.amador {
-    font-family: amador, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-// Coronette - Typewriter style font
-.typew {
-    font-family: "coronette", sans-serif;
-}
-
-// Mono45  Headline - Nice heading font (regular and bold variants included)
-.mono45-reg {
-    font-family: mono45-headline, monospace;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.mono45-bold {
-    font-family: mono45-headline, monospace;
-    font-weight: 700;
-    font-style: normal;
-}
-
-// SVG Scalars
-.small-svg {
-    width: 256px;
-    height: 265px;
-}
-
-.medium-svg {
-    width: 350px;
-    height: 350px;
-}
-
-.large-svg {
-    width: 450px;
-    height: 450px;
-}
-
-// Custom height and padding for splash address
-.splash-address {
-    padding-top: 64px;
-}
-

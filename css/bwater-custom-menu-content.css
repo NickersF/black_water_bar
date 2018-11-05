@@ -12,15 +12,18 @@
    This file contains variables to the colors for the site.
 
 */
+/* Author Nicholas Fazzolari
+   =========================
+   Custom CSS rules for the Black Water Bar site
+
+   This class module describes how the top grid that contains the corner logo, menu and events module
+
+*/
 .content-sub-heading {
   font-size: 3rem; }
 
 .item-name {
-  font-size: 1.30rem; }
-
-.item-price {
-  font-size: 1.30rem;
-  padding: 0; }
+  margin-bottom: 0; }
 
 .item-description {
   font-size: 1rem;

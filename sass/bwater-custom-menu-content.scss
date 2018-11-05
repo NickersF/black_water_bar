@@ -7,22 +7,7 @@
 */
 
 @import 'bwater-custom-colors';
-
-// Font and background color mixin
-@mixin set_dark {
-    color: $hinted_white;
-    background-color: $dark_grey;
-}
-
-@mixin set_light {
-    color: $dark_grey;
-    background-color: $hinted_white;
-}
-
-@mixin pad_marg_zero {
-    padding: 0;
-    margin: 0;
-}
+@import 'bwater-custom-mixins';
 
 // Set the font style for the sub heading in the menu
 .content-sub-heading {
@@ -31,13 +16,7 @@
 
 // Set font styles for individual items in the menus
 .item-name {
-    font-size: 1.30rem;
-}
-
-// Set the font styles for the price of an item
-.item-price {
-    font-size: 1.30rem;
-    padding: 0;
+    margin-bottom: 0;
 }
 
 // Set the font styles for the description of an item

@@ -22,9 +22,6 @@
   padding-right: 6px;
   padding-left: 6px; }
 
-.event-date-time {
-  color: #D32F2F; }
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .eventtitle {

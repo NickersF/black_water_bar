@@ -1,0 +1,12 @@
+<!-- Begin row for drinks sub heading -->
+<h1 class="amador text-center content-sub-heading"><perch:content id="heading" type="smarttext" label="Section heading" help="Sets the name of the drink menu section" /></h1>
+<!-- End row for drinks sub heading -->
+
+<!-- Begin row for individual drink items (start perch repeater) -->
+<perch:repeater id="drink_item" label="Cocktail Item" max="100">
+    <div class="mono45-bold item-name"><perch:content id="cocktail_item_name" type="smarttext" label="cocktail name" />
+        <span class="mono45-reg item-price"><perch:content id="cocktail_item_price" type="smarttext" label="cocktail price" /> </span>
+    </div>
+    <div class="mono45-reg item-description"><perch:content id="cocktail_item_description" type="smarttext" label="cocktail description" /></div>
+</perch:repeater>
+<!-- End row for individual drink items  (end perch repeater)-->
