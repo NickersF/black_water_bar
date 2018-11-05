@@ -1,15 +1,6 @@
 /* Author Nicholas Fazzolari
    =========================
    Custom CSS rules for the Black Water Bar site
-
-   TODO:
-    • Implement a type style and color rule set → bwater-typography.scss
-    • Implement global rule set (consolidate and deprecate certain unused and redundant files [ index rules ] ) → bwater-global-rules.scss
-    • Implement food rule set → bwater-food-rules.scss
-    • Implement drink rule set → bwater-drink-rules.scss
-    • Implement events rule set → bwater-events
-    • Rename images (remove the custom tags)
-    • Remove the custom in all scss files to shorten the names
 */
 
 @import 'bwater-custom-colors';

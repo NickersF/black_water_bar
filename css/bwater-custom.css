@@ -1,16 +1,6 @@
-@charset "UTF-8";
 /* Author Nicholas Fazzolari
    =========================
    Custom CSS rules for the Black Water Bar site
-
-   TODO:
-    ΓÇó Implement a type style and color rule set ΓåÆ bwater-typography.scss
-    ΓÇó Implement global rule set (consolidate and deprecate certain unused and redundant files [ index rules ] ) ΓåÆ bwater-global-rules.scss
-    ΓÇó Implement food rule set ΓåÆ bwater-food-rules.scss
-    ΓÇó Implement drink rule set ΓåÆ bwater-drink-rules.scss
-    ΓÇó Implement events rule set ΓåÆ bwater-events
-    ΓÇó Rename images (remove the custom tags)
-    ΓÇó Remove the custom in all scss files to shorten the names
 */
 /* Author Nicholas Fazzolari
    =========================
@@ -257,8 +247,6 @@
 
 .item-description {
   font-size: 1rem;
-  padding: 0;
-  margin: 0;
   color: #B71C1C; }
 
 /* Author Nicholas Fazzolari
