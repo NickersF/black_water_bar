@@ -155,10 +155,13 @@
                 <div class="col-lg-auto col-pad-six d-flex justify-content-center">
                     <img class="drink-svg-sizer img-fluid" src="./img/drinks.svg">
                 </div>
-                <div class="col-lg-6 col-pad-six">
+                <div class="col-lg-6 twelve-padder">
 
                     <!-- inject cocktail items via perch -->
                     <?php perch_content('cocktail_menu'); ?>
+
+                    <!-- Inject draft items via perch -->
+                    <?php perch_content('drafts'); ?>
 
                 </div>
                 <div class="col twelve-padder text-center">
