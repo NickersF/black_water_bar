@@ -163,6 +163,12 @@
                     <!-- Inject draft items via perch -->
                     <?php perch_content('drafts'); ?>
 
+                    <!-- Inject bottle and cans items via perch -->
+                    <?php perch_content('bottles_n_cans'); ?>
+
+                    <!-- Inject draft items via perch -->
+                    <?php perch_content('straight_edge'); ?>
+
                 </div>
                 <div class="col twelve-padder text-center">
                     <img class="img-fluid right-side-border" src="./img/home-page-img/shot11.PNG">

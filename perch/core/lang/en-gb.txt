@@ -387,5 +387,6 @@
     "Skip region list for just one region": "Skip region list for just one region",
     "Enforce bucket restrictions on content": "Enforce bucket restrictions on content",
     "Template tag ID \u2018%s\u2019 contains disallowed characters": "Template tag ID \u2018%s\u2019 contains disallowed characters",
-    "The template for this region (%s) cannot be found.": "The template for this region (%s) cannot be found."
+    "The template for this region (%s) cannot be found.": "The template for this region (%s) cannot be found.",
+    "Subpage folder": "Subpage folder"
 }
