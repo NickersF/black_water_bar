@@ -9,18 +9,30 @@
 @import 'bwater-custom-colors';
 @import 'bwater-custom-mixins';
 
-// Set the font style for the sub heading in the menu
+// Set the margin for the sub-section name
 .content-sub-heading {
-    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
-// Set font styles for individual items in the menus
+// Set the margin for the item name
 .item-name {
     margin-bottom: 0;
 }
 
 // Set the font styles for the description of an item
 .item-description {
-    font-size: 1rem;
     color: $red;
+}
+
+// Dotted border between item name and price on desktop
+.item-dotted-border {
+    border-bottom: dotted $hinted_white;
+}
+
+// Remove border on mobile
+@media only screen and (max-width: 600px) {
+    .item-dotted-border {
+        border-bottom: none;
+    }
 }

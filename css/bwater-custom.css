@@ -240,15 +240,21 @@
 
 */
 .content-sub-heading {
-  font-size: 3rem; }
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
 
 .item-name {
   margin-bottom: 0; }
 
 .item-description {
-  font-size: 1rem;
   color: #B71C1C; }
 
+.item-dotted-border {
+  border-bottom: dotted #EFEBE9; }
+
+@media only screen and (max-width: 600px) {
+  .item-dotted-border {
+    border-bottom: none; } }
 /* Author Nicholas Fazzolari
    =========================
    Custom CSS rules for the Black Water Bar site

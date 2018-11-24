@@ -1,23 +1,23 @@
 <!-- Bottles and cans template -->
 <!-- Begin menu template structure -->
-<div class="row">
-    <div class="col-lg amador">
+<div class="row twelve-padder">
+    <div class="col amador text-center">
         <h1><perch:content id="heading" type="smarttext" label="Section heading" help="Sets the name of the drink menu section" /></h1>
     </div>
 </div>
-<!-- Item Row (will need different layouts for different categories, tackle cocktails first) -->
-<perch:repeater id="drink_item" label="Bottles and Cans items" max="100">
+<!-- Item Row (will need different layouts for different categories, tackle bottles_n_cans first) -->
+<perch:repeater id="drink_item" label="Bottle and Cans item" max="100">
 <div class="row">
-    <div class="col-lg-6 col-xs-6 mono45-bold">
-        <h2 class="item-name"><perch:content id="bottles_n_cans_item_name" type="smarttext" label="Item name" /></h2>
+    <div class="col-7 mono45-bold">
+        <h4 class="item-name"><perch:content id="bottles_n_cans_item_name" type="smarttext" label="Item name" /></h4>
     </div>
-    
-    <div class="col-lg-6 col-xs-6 text-center mono45-reg">
-        <h2 class="item-name"><perch:content id="bottles_n_cans_item_price" type="smarttext" label="Item price" /></h2>
+    <div class="col-3 mono45-reg item-dotted-border"></div>
+    <div class="col-2 mono45-reg">
+        <h4 class="item-name"><perch:content id="bottles_n_cans_item_price" type="smarttext" label="Item price" /></h4>
     </div>
 </div>
 <div class="row">
-    <div class="col-lg mono45-reg item-description">
+    <div class="col mono45-reg item-description">
         <p><perch:content id="bottles_n_cans_item_description" type="smarttext" label="Item description" /></p>
     </div>
 </div>
