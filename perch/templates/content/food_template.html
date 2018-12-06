@@ -1,0 +1,31 @@
+<!-- Begin food menu template structure -->
+<div class="row twelve-padder">
+    <div class="col text-center amador">
+        <h1 class="category-menu-heading">
+            <perch:content id="heading" type="smarttext" label="Section" help="Sets the name of the food menu section (eg, appetizers, burgers)." />
+        </h1>
+    </div>
+</div>
+<!-- Begin repeater -->
+<perch:repeater id="food_item" label="Food Item" max="50">
+    <div class="row">
+        <div class="col-md-6">
+            <h4 class="menu-item mono45-reg">
+                <perch:content id="food_left_column_name" type="smarttext" label="Left column food item name and price" />
+            </h4>
+            <p class="item-description mono45-reg">
+                <perch:content id="food_left_column_description" type="smarttext" label="Left column food item description" />
+            </p>
+        </div>
+        <div class="col-md-6">
+            <h4 class="menu-item mono45-reg">
+                <perch:content id="food_right_column_name" type="smarttext" label="Right column food item name and price" />
+            </h4>
+            <p class="item-description mono45-reg">
+                <perch:content id="food_right_column_decription" type="smarttext" label="Right column food item descritpion" />
+            </p>
+        </div>
+    </div>
+</perch:repeater>
+<!-- End repeater -->
+<!-- End food menu template structure -->

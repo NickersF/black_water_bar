@@ -128,22 +128,18 @@
                 <div class="col-lg-auto col-pad-six d-flex justify-content-center">
                     <img class="drink-svg-sizer img-fluid" src="./img/food.svg">
                 </div>
-                <div class="col-lg-6 col-pad-six">
 
-                    <!-- Begin sub section title -->
-                    <div class="amador text-center">
-                        <h1 class="content-sub-heading">Sub Item</h1>
-                    </div>
-                    <!-- End sub section title -->
+                <div class="col-lg-6 twelve-padder">
 
-                    <!-- Begin individual item -->
-                    <div class="content-individual-item mono45-reg">
-                        <span class="item-name">Item name</span> <span>Item Price</span>
-                    </div>
-                    <!-- End individual item -->
+                    <!-- Inject appetizer menu -->
+                    <?php perch_content('appetizers') ?>
+
                 </div>
+
                 <div class="col twelve-padder text-center">
-                    <img class="img-fluid right-side-border" src="./img/home-page-img/shot3.PNG">
+                    <!-- Client uploadable image field for food section -->
+                    <!-- <img class="img-fluid right-side-border" src="./img/home-page-img/shot3.PNG"> -->
+                    <?php perch_content('food_section_custom_image') ?>
                 </div>
             </div>
         </div>
@@ -155,9 +151,10 @@
                 <div class="col-lg-auto col-pad-six d-flex justify-content-center">
                     <img class="drink-svg-sizer img-fluid" src="./img/drinks.svg">
                 </div>
+
                 <div class="col-lg-6 twelve-padder">
 
-                    <!-- inject cocktail items via perch -->
+                    <!-- Inject cocktail items via perch -->
                     <?php perch_content('cocktail_menu'); ?>
 
                     <!-- Inject draft items via perch -->
@@ -170,8 +167,11 @@
                     <?php perch_content('straight_edge'); ?>
 
                 </div>
+                
                 <div class="col twelve-padder text-center">
-                    <img class="img-fluid right-side-border" src="./img/home-page-img/shot11.PNG">
+                    <!-- Client uploadable image field for drinks section -->
+                    <!-- <img class="img-fluid right-side-border" src="./img/home-page-img/shot11.PNG"> -->
+                    <?php perch_content('drinks_section_custom_image') ?>
                 </div>
             </div>
         </div>
@@ -197,7 +197,9 @@
                         <!-- End event listing -->
                     </div>
                     <div class="col twelve-padder text-center">
-                        <img class="img-fluid right-side-border" src="./img/home-page-img/shot5.PNG">
+                        <!-- Client uploadable image field for events section -->
+                        <!-- <img class="img-fluid right-side-border" src="./img/home-page-img/shot5.PNG"> -->
+                        <?php perch_content('events_section_custom_image') ?>
                     </div>
                 </div>
             </div>
