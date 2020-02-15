@@ -134,6 +134,18 @@
                     <!-- Inject appetizer menu -->
                     <?php perch_content('appetizers') ?>
 
+                    <!-- Inject salads menu -->
+                    <?php perch_content('salads_sides') ?>
+
+                    <!-- Inject burgers menu -->
+                    <?php perch_content('burgers') ?>
+
+                    <!-- Inject sandwiches menu -->
+                    <?php perch_content('sandwiches') ?>
+
+                    <!-- Inject desserts -->
+                    <?php perch_content('desserts') ?>
+                    
                 </div>
 
                 <div class="col twelve-padder text-center">
@@ -178,7 +190,7 @@
         <!-- End drinks container -->
 
         <!-- Begin events container -->
-        <div id="events" class="container-fluid body-container-base">
+        <div id="events" class="container-fluid body-container-base text-center">
                 <div class="row body-row-pad-reset">
                     <div class="col-lg-auto col-pad-six d-flex justify-content-center">
                         <img class="drink-svg-sizer img-fluid" src="./img/events.svg">

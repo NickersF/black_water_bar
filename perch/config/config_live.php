@@ -1,10 +1,10 @@
 <?php
     define('PERCH_LICENSE_KEY', 'P32001-ACV753-QGW480-YMU177-KMD019');
 
-    define("PERCH_DB_USERNAME", 'root');
-    define("PERCH_DB_PASSWORD", 'sunshine');
-    define("PERCH_DB_SERVER", "localhost");
-    define("PERCH_DB_DATABASE", "black_water");
+    define("PERCH_DB_USERNAME", 'dbu447153');
+    define("PERCH_DB_PASSWORD", 'Punk$isn3rds');
+    define("PERCH_DB_SERVER", "db5000273936.hosting-data.io");
+    define("PERCH_DB_DATABASE", "dbs267372");
     define("PERCH_DB_PREFIX", "perch3_");
     
     define('PERCH_TZ', 'UTC');

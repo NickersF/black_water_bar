@@ -388,5 +388,12 @@
     "Enforce bucket restrictions on content": "Enforce bucket restrictions on content",
     "Template tag ID \u2018%s\u2019 contains disallowed characters": "Template tag ID \u2018%s\u2019 contains disallowed characters",
     "The template for this region (%s) cannot be found.": "The template for this region (%s) cannot be found.",
-    "Subpage folder": "Subpage folder"
+    "Subpage folder": "Subpage folder",
+    "File name": "File name",
+    "Page already exists, or is a link only": "Page already exists, or is a link only",
+    "This page will have more pages below it": "This page will have more pages below it",
+    "To configure tasks to run, you first need to set a %ssecret%s. This is just a code word to stop tasks being run accidentally. Choose a secret (e.g. %scarbonara%s) and add it to your %sconfig\/config.php%s file like this:": "To configure tasks to run, you first need to set a %ssecret%s. This is just a code word to stop tasks being run accidentally. Choose a secret (e.g. %scarbonara%s) and add it to your %sconfig\/config.php%s file like this:",
+    "Do that now, then reload this page. Don't use %scarbonara%s.": "Do that now, then reload this page. Don't use %scarbonara%s.",
+    "%sPerch is out of date.%s You are running %s and the latest is %s. %sUpdate instructions%s": "%sPerch is out of date.%s You are running %s and the latest is %s. %sUpdate instructions%s",
+    "%sFile upload size is low.%s You can only upload files up to %sM.": "%sFile upload size is low.%s You can only upload files up to %sM."
 }
