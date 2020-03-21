@@ -13,33 +13,41 @@
 */
 .grayscale-tn {
   filter: grayscale(1);
-  -webkit-filter: grayscale(1); }
+  -webkit-filter: grayscale(1);
+}
 
 .grayscale-tn:hover {
   filter: grayscale(0);
-  -webkit-filter: grayscale(0); }
+  -webkit-filter: grayscale(0);
+}
 
 .right-logo-scale {
   height: 256px;
-  width: 256px; }
+  width: 256px;
+}
 
 .drink-svg-sizer {
   height: 117px;
-  width: 256px; }
+  width: 256px;
+}
 
 .right-side-border {
-  border: 12px #EFEBE9 solid; }
+  border: 12px #EFEBE9 solid;
+}
 
 .small-svg {
   width: 256px;
-  height: 265px; }
+  height: 265px;
+}
 
 .medium-svg {
   width: 350px;
-  height: 350px; }
+  height: 350px;
+}
 
 .large-svg {
   width: 450px;
-  height: 450px; }
+  height: 450px;
+}
 
 /*# sourceMappingURL=bwater-custom-images.css.map */

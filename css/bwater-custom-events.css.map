@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAAA;;;;;EAKE;ACLF;;;;;;EAME;ADGF,sCAAsC;AAGtC,WAAY;EACR,SAAS,EAAE,MAAM;EACjB,aAAa,EAAE,GAAG;EAClB,YAAY,EAAE,GAAG;;AAGrB,UAAW;EACP,KAAK,ECTH,OAAO;EDUT,aAAa,EAAE,GAAG;EAClB,YAAY,EAAE,GAAG;;AAKrB,kDAAkD;AAClD,yCAA0C;EACtC,WAAY;IACR,SAAS,EAAE,IAAI;;EAEnB,UAAW;IACP,SAAS,EAAE,MAAM",
-"sources": ["../sass/bwater-custom-events.scss","../sass/bwater-custom-colors.scss"],
-"names": [],
-"file": "bwater-custom-events.css"
-}
+{"version":3,"sourceRoot":"","sources":["../sass/bwater-custom-events.scss","../sass/bwater-custom-colors.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;;AAAA;AAAA;ACAA;AAAA;AAAA;;AAAA;;AAAA;ADSA;AAGA;EACI;EACA;EACA;;;AAGJ;EACI,OCTE;EDUF;EACA;;;AAKJ;AACA;EACI;IACI;;;EAEJ;IACI","file":"bwater-custom-events.css"}

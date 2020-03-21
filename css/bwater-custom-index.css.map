@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAAA;;;;;;EAME;ACNF;;;;;;EAME;ACNF;;;;;;EAME;AFMF,oBAAqB;EEQjB,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;;AFJb,mBAAoB;EEPhB,KAAK,EDFM,OAAO;ECGlB,gBAAgB,EDFR,OAAO;EDUf,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,IAAI;;AAIhB,cAAe;EACX,OAAO,EAAE,IAAI",
-"sources": ["../sass/bwater-custom-index.scss","../sass/bwater-custom-colors.scss","../sass/bwater-custom-mixins.scss"],
-"names": [],
-"file": "bwater-custom-index.css"
-}
+{"version":3,"sourceRoot":"","sources":["../sass/bwater-custom-index.scss","../sass/bwater-custom-colors.scss","../sass/bwater-custom-mixins.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;;AAAA;;AAAA;ACAA;AAAA;AAAA;;AAAA;;AAAA;ACAA;AAAA;AAAA;;AAAA;;AAAA;AFYA;EEQI;EACA;;;AFJJ;EEPI,ODFW;ECGX,kBDFQ;EDUR;EACA;;;AAIJ;EACI","file":"bwater-custom-index.css"}

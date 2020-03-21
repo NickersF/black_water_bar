@@ -15,19 +15,23 @@
   color: #B71C1C;
   font-size: 1.875rem;
   text-decoration: underline;
-  text-decoration-style: solid; }
+  text-decoration-style: solid;
+}
 
 .bw-nav a:visited {
   color: #B71C1C;
-  font-size: 1.875rem; }
+  font-size: 1.875rem;
+}
 
 .bw-nav a:focus {
   color: #EFEBE9;
   font-size: 1.875rem;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .bw-nav a:hover {
   color: #EFEBE9;
-  font-size: 1.875rem; }
+  font-size: 1.875rem;
+}
 
 /*# sourceMappingURL=bwater-custom-links.css.map */

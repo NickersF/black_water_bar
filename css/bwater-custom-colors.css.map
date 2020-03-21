@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAAA;;;;;;EAME",
-"sources": ["../sass/bwater-custom-colors.scss"],
-"names": [],
-"file": "bwater-custom-colors.css"
-}
+{"version":3,"sourceRoot":"","sources":["../sass/bwater-custom-colors.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;;AAAA;;AAAA","file":"bwater-custom-colors.css"}

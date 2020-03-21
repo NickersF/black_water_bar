@@ -21,49 +21,60 @@
 */
 .header-container-base {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 .header-row-pad-reset {
   color: #EFEBE9;
   background-color: #212121;
   padding: 0;
-  margin: 12px; }
+  margin: 12px;
+}
 
 .col-pad-six {
   color: #EFEBE9;
   background-color: #212121;
-  padding: 6px; }
+  padding: 6px;
+}
 
 /* ---- MENU CLASSES ---- */
 .header-menu-zero {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 .col-pad-zero {
   color: #EFEBE9;
   background-color: #212121;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 .nav-link-size {
-  font-size: 3rem; }
+  font-size: 3rem;
+}
 
 .nav-link-padding {
-  padding-right: 6px; }
+  padding-right: 6px;
+}
 
 /* ---- ADDRESS SPECIFIC CLASSES ---- */
 .address-bottom-marg-zero {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
 /* ---- EVENT SPECIFIC CLASSES ---- */
 .event-color-inversion {
   color: #212121;
-  background-color: #EFEBE9; }
+  background-color: #EFEBE9;
+}
 
 .event-base-padder {
-  padding: 12px; }
+  padding: 12px;
+}
 
 .event-padder {
-  padding: 12px; }
+  padding: 12px;
+}
 
 /*# sourceMappingURL=bwater-custom-top-grid.css.map */

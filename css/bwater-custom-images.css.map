@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAAA;;;;;EAKE;ACLF;;;;;;EAME;ADIF,aAAc;EACV,MAAM,EAAE,YAAY;EACpB,cAAc,EAAE,YAAY;;AAGhC,mBAAoB;EAChB,MAAM,EAAE,YAAY;EACpB,cAAc,EAAE,YAAY;;AAIhC,iBAAkB;EACd,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;;AAGhB,gBAAiB;EACb,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;;AAIhB,kBAAmB;EACf,MAAM,EAAE,kBAAwB;;AAIpC,UAAW;EACP,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;;AAGjB,WAAY;EACR,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;;AAGjB,UAAW;EACP,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK",
-"sources": ["../sass/bwater-custom-images.scss","../sass/bwater-custom-colors.scss"],
-"names": [],
-"file": "bwater-custom-images.css"
-}
+{"version":3,"sourceRoot":"","sources":["../sass/bwater-custom-images.scss","../sass/bwater-custom-colors.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;;AAAA;AAAA;ACAA;AAAA;AAAA;;AAAA;;AAAA;ADUA;EACI;EACA;;;AAGJ;EACI;EACA;;;AAIJ;EACI;EACA;;;AAGJ;EACI;EACA;;;AAIJ;EACI;;;AAIJ;EACI;EACA;;;AAGJ;EACI;EACA;;;AAGJ;EACI;EACA","file":"bwater-custom-images.css"}

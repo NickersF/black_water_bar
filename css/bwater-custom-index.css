@@ -21,15 +21,18 @@
 */
 .body-container-base {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 .body-row-pad-reset {
   color: #EFEBE9;
   background-color: #212121;
   padding: 0;
-  margin: 12px; }
+  margin: 12px;
+}
 
 .twelve-padder {
-  padding: 12px; }
+  padding: 12px;
+}
 
 /*# sourceMappingURL=bwater-custom-index.css.map */

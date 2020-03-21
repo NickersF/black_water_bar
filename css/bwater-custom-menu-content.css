@@ -21,19 +21,25 @@
 */
 .content-sub-heading {
   margin-top: 2rem;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+}
 
 .item-name {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
 .item-description {
-  color: #B71C1C; }
+  color: #B71C1C;
+}
 
 .item-dotted-border {
-  border-bottom: dotted #EFEBE9; }
+  border-bottom: dotted #EFEBE9;
+}
 
 @media only screen and (max-width: 600px) {
   .item-dotted-border {
-    border-bottom: none; } }
+    border-bottom: none;
+  }
+}
 
 /*# sourceMappingURL=bwater-custom-menu-content.css.map */
