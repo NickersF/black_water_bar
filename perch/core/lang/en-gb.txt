@@ -395,5 +395,6 @@
     "To configure tasks to run, you first need to set a %ssecret%s. This is just a code word to stop tasks being run accidentally. Choose a secret (e.g. %scarbonara%s) and add it to your %sconfig\/config.php%s file like this:": "To configure tasks to run, you first need to set a %ssecret%s. This is just a code word to stop tasks being run accidentally. Choose a secret (e.g. %scarbonara%s) and add it to your %sconfig\/config.php%s file like this:",
     "Do that now, then reload this page. Don't use %scarbonara%s.": "Do that now, then reload this page. Don't use %scarbonara%s.",
     "%sPerch is out of date.%s You are running %s and the latest is %s. %sUpdate instructions%s": "%sPerch is out of date.%s You are running %s and the latest is %s. %sUpdate instructions%s",
-    "%sFile upload size is low.%s You can only upload files up to %sM.": "%sFile upload size is low.%s You can only upload files up to %sM."
+    "%sFile upload size is low.%s You can only upload files up to %sM.": "%sFile upload size is low.%s You can only upload files up to %sM.",
+    "The following error occurred:": "The following error occurred:"
 }
