@@ -12,7 +12,7 @@
     define('PERCH_EMAIL_FROM', 'btsourcepdx@gmail.com');
     define('PERCH_EMAIL_FROM_NAME', 'Nicholas Fazzolari');
 
-    define('PERCH_LOGINPATH', '/black_water_bar/perch');
+    define('PERCH_LOGINPATH', '/perch');
     define('PERCH_PATH', str_replace(DIRECTORY_SEPARATOR.'config', '', __DIR__));
     define('PERCH_CORE', PERCH_PATH.DIRECTORY_SEPARATOR.'core');
 
