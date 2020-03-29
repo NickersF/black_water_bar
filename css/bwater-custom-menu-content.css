@@ -29,11 +29,11 @@
 }
 
 .item-description {
-  color: #B71C1C;
+  color: #ca3535;
 }
 
 .item-dotted-border {
-  border-bottom: dotted #EFEBE9;
+  border-bottom: dotted #dcc7a9;
 }
 
 @media only screen and (max-width: 600px) {

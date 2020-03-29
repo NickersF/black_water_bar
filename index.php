@@ -67,7 +67,7 @@
 
             <!-- Begin logo column -->
             <div class="col-lg-auto col-pad-six d-flex justify-content-center">
-                <img class="img-fluid right-logo-scale" src="./img/black-water-txt-logo.svg">
+                <img class="img-fluid right-logo-scale" src="./img/logo_type_bwater.svg">
             </div>
             <!-- End logo column -->
 
@@ -100,10 +100,10 @@
                     <div class="col col-pad-zero mono45-bold">
                         <h4 class="address-bottom-marg-zero">black water bar pdx</h4>
                         <h5>835 ne broadway, portland, or 97232 <br>
-                        +1 503 281 0439
+                            +1 503 281 0439
                         </h5>
                         <h4 class="address-bottom-marg-zero">hours:</h4>
-                        <h5>weekdays: 4:00pm - 9:00pm weekends: 12:00pm - 9:00pm</h5>
+                        <h5>Mon-Fri: 4:00pm - 9:00pm Sat-Sun: 12:00pm - 9:00pm</h5>
                     </div>
                 </div>
 
@@ -118,8 +118,8 @@
             <div class="col event-base-padder">
                 <div class="row header-menu-zero event-color-inversion event-padder h-100">
                     <div class="col header-menu-zero">
-                        <h4 class="mono45-bold">Next Event:</h4>
-                        <h5 class="mono45-bold">Events currently canceled due to pandemic.</h5>
+                        <h4 class="mono45-bold">No Events Currently - Take Out Only.</h4>
+                        <!-- <h5 class="mono45-bold">Events currently canceled due to pandemic.</h5> -->
                         <!-- <h5 id="eventlistsingle" class=" mono45-reg"></h5> -->
                     </div>
                 </div>
@@ -138,7 +138,14 @@
             </div>
 
             <div class="col-lg-6 twelve-padder">
-                <p>Content here</p>
+                <div class="row body-row-pad-reset mono45-bold bw-nav text-center">
+                    <div class="col-lg-6 twelve-padder">
+                        <a href="https://www.pdxccc.com/restaurants.html" target="_blank">Black Water Bar Food Delivery at PDXCCC</a>
+                    </div>
+                    <div class="col-lg-6 twelve-padder">
+                        <a href="https://www.doordash.com/store/black-water-portland-887213/en-US" target="_blank">Black Water Bar Delivery at Door</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -210,33 +217,7 @@
     </div>
     <!-- End drinks container -->
 
-    <!-- Begin events container -->
-    <div id="events" class="container-fluid body-container-base text-center">
-        <div class="row body-row-pad-reset">
-            <div class="col-lg-auto col-pad-six d-flex justify-content-center">
-                <img class="drink-svg-sizer img-fluid" src="./img/events.svg">
-            </div>
-            <div class="col-lg-6 col-pad-six">
-                <!-- Begin section title -->
-                <div class="amador text-center">
-                    <h1 class="content-sub-heading">Upcoming Shows and Events</h1>
-                </div>
-                <!-- End section title -->
 
-                <!-- Begin event listing -->
-                <div class="d-flex justify-content-center">
-                    <div id="eventlist" class="mono45-reg"></div>
-                </div>
-                <!-- End event listing -->
-            </div>
-            <div class="col twelve-padder text-center">
-                <!-- Client uploadable image field for events section -->
-                <!-- <img class="img-fluid right-side-border" src="./img/home-page-img/shot5.PNG"> -->
-                <?php perch_content('events_section_custom_image') ?>
-            </div>
-        </div>
-    </div>
-    <!-- End events container -->
 
     <!-- Optional Javascript -->
     <!-- JQuery, Popper.js, the Bootstrap JS -->

@@ -12,25 +12,25 @@
 
 */
 .bw-nav a {
-  color: #B71C1C;
+  color: #ca3535;
   font-size: 1.875rem;
   text-decoration: underline;
   text-decoration-style: solid;
 }
 
 .bw-nav a:visited {
-  color: #B71C1C;
+  color: #ca3535;
   font-size: 1.875rem;
 }
 
 .bw-nav a:focus {
-  color: #EFEBE9;
+  color: #dcc7a9;
   font-size: 1.875rem;
   text-decoration: none;
 }
 
 .bw-nav a:hover {
-  color: #EFEBE9;
+  color: #dcc7a9;
   font-size: 1.875rem;
 }
 

@@ -23,25 +23,25 @@
 
 */
 .bw-nav a {
-  color: #B71C1C;
+  color: #ca3535;
   font-size: 1.875rem;
   text-decoration: underline;
   text-decoration-style: solid;
 }
 
 .bw-nav a:visited {
-  color: #B71C1C;
+  color: #ca3535;
   font-size: 1.875rem;
 }
 
 .bw-nav a:focus {
-  color: #EFEBE9;
+  color: #dcc7a9;
   font-size: 1.875rem;
   text-decoration: none;
 }
 
 .bw-nav a:hover {
-  color: #EFEBE9;
+  color: #dcc7a9;
   font-size: 1.875rem;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .eventdate {
-  color: #B71C1C;
+  color: #ca3535;
   padding-right: 6px;
   padding-left: 6px;
 }
@@ -115,7 +115,7 @@
 }
 
 .right-side-border {
-  border: 12px #EFEBE9 solid;
+  border: 12px #dcc7a9 solid;
 }
 
 .small-svg {
@@ -160,15 +160,15 @@
 }
 
 .header-row-pad-reset {
-  color: #EFEBE9;
-  background-color: #212121;
+  color: #dcc7a9;
+  background-color: #1c1b1b;
   padding: 0;
   margin: 12px;
 }
 
 .col-pad-six {
-  color: #EFEBE9;
-  background-color: #212121;
+  color: #dcc7a9;
+  background-color: #1c1b1b;
   padding: 6px;
 }
 
@@ -179,8 +179,8 @@
 }
 
 .col-pad-zero {
-  color: #EFEBE9;
-  background-color: #212121;
+  color: #dcc7a9;
+  background-color: #1c1b1b;
   padding: 0;
   margin: 0;
 }
@@ -200,8 +200,8 @@
 
 /* ---- EVENT SPECIFIC CLASSES ---- */
 .event-color-inversion {
-  color: #212121;
-  background-color: #EFEBE9;
+  color: #1c1b1b;
+  background-color: #dcc7a9;
 }
 
 .event-base-padder {
@@ -239,8 +239,8 @@
 }
 
 .body-row-pad-reset {
-  color: #EFEBE9;
-  background-color: #212121;
+  color: #dcc7a9;
+  background-color: #1c1b1b;
   padding: 0;
   margin: 12px;
 }
@@ -280,11 +280,11 @@
 }
 
 .item-description {
-  color: #B71C1C;
+  color: #ca3535;
 }
 
 .item-dotted-border {
-  border-bottom: dotted #EFEBE9;
+  border-bottom: dotted #dcc7a9;
 }
 
 @media only screen and (max-width: 600px) {
@@ -329,8 +329,8 @@
 body {
   margin: 0;
   padding: 0;
-  color: #212121;
-  background-color: #EFEBE9;
+  color: #1c1b1b;
+  background-color: #dcc7a9;
 }
 
 /*# sourceMappingURL=bwater-custom.css.map */
