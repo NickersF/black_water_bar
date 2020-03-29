@@ -143,7 +143,7 @@
                         <a href="https://www.pdxccc.com/restaurants.html" target="_blank">Black Water Bar Food Delivery at PDXCCC</a>
                     </div>
                     <div class="col-lg-6 twelve-padder">
-                        <a href="https://www.doordash.com/store/black-water-portland-887213/en-US" target="_blank">Black Water Bar Delivery at Door</a>
+                        <a href="https://www.doordash.com/store/black-water-portland-887213/en-US" target="_blank">Black Water Bar Delivery at Doordash</a>
                     </div>
                 </div>
             </div>
