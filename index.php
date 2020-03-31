@@ -177,9 +177,18 @@
             </div>
 
             <div class="col twelve-padder text-center">
-                <!-- Client uploadable image field for food section -->
-                <!-- <img class="img-fluid right-side-border" src="./img/home-page-img/shot3.PNG"> -->
-                <?php perch_content('food_section_custom_image') ?>
+                <div class="row">
+                    <div class="col">
+                        <!-- Client uploadable image field for food section (All screens) -->
+                        <?php perch_content('food_section_custom_image') ?>
+                    </div>
+                </div>
+
+                <div class="row d-none d-lg-block">
+                    <div class="col">
+                        <?php perch_content('food_section_multi_image') ?>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

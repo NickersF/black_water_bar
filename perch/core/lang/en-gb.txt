@@ -396,5 +396,8 @@
     "Do that now, then reload this page. Don't use %scarbonara%s.": "Do that now, then reload this page. Don't use %scarbonara%s.",
     "%sPerch is out of date.%s You are running %s and the latest is %s. %sUpdate instructions%s": "%sPerch is out of date.%s You are running %s and the latest is %s. %sUpdate instructions%s",
     "%sFile upload size is low.%s You can only upload files up to %sM.": "%sFile upload size is low.%s You can only upload files up to %sM.",
-    "The following error occurred:": "The following error occurred:"
+    "The following error occurred:": "The following error occurred:",
+    "Replace file": "Replace file",
+    "Delete Asset": "Delete Asset",
+    "Are you sure you wish to delete this asset? %sIt may be in use on your site. Deleting will result in the asset no longer being available.%s": "Are you sure you wish to delete this asset? %sIt may be in use on your site. Deleting will result in the asset no longer being available.%s"
 }

@@ -34,6 +34,10 @@
     border: 12px $hinted_white solid;
 }
 
+.no-top-border {
+    border-top: none;
+}
+
 // SVG Scalars
 .small-svg {
     width: 256px;

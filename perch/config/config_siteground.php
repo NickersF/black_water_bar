@@ -2,7 +2,7 @@
     define('PERCH_LICENSE_KEY', 'P32001-ACV753-QGW480-YMU177-KMD019');
 
     define("PERCH_DB_USERNAME", 'Blackwa5_barusr');
-    define("PERCH_DB_PASSWORD", 'E}2A@Cl}TzTu');
+    define("PERCH_DB_PASSWORD", 'mGYdqC$y,REQU8.4mMDJt');
     define("PERCH_DB_SERVER", "localhost");
     define("PERCH_DB_DATABASE", "blackwa5_bar");
     define("PERCH_DB_PREFIX", "perch3_");

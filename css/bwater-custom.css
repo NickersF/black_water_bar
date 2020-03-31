@@ -118,6 +118,10 @@
   border: 12px #dcc7a9 solid;
 }
 
+.no-top-border {
+  border-top: none;
+}
+
 .small-svg {
   width: 256px;
   height: 265px;
