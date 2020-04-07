@@ -103,7 +103,9 @@
                             +1 503 281 0439
                         </h5>
                         <h4 class="address-bottom-marg-zero">hours:</h4>
-                        <h5>Mon-Fri: 4:00pm - 9:00pm Sat-Sun: 12:00pm - 9:00pm</h5>
+                        <h5>
+                            <?php perch_content('bar_hours') ?>
+                        </h5>
                     </div>
                 </div>
 
@@ -136,7 +138,7 @@
             <div class="col-lg-auto col-pad-six d-flex justify-content-center">
                 <img class="drink-svg-sizer img-fluid" src="./img/deliveries.svg">
             </div>
-
+            <!-- Add button styles -->
             <div class="col-lg-6 twelve-padder">
                 <div class="row body-row-pad-reset mono45-bold bw-nav text-center">
                     <div class="col-lg-6 twelve-padder">
