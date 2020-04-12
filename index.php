@@ -141,10 +141,13 @@
             <!-- Add button styles -->
             <div class="col-lg-6 twelve-padder">
                 <div class="row body-row-pad-reset mono45-bold bw-nav text-center">
-                    <div class="col-lg-6 twelve-padder">
+                    <div class="col-lg-4 twelve-padder">
+                    <a href="https://blackwater.hrpos.heartland.us/ " target="_blank">Order Online Directly</a>
+                    </div>
+                    <div class="col-lg-4 twelve-padder">
                         <a href="https://www.pdxccc.com/restaurants.html" target="_blank">Black Water Bar Food Delivery at PDXCCC</a>
                     </div>
-                    <div class="col-lg-6 twelve-padder">
+                    <div class="col-lg-4 twelve-padder">
                         <a href="https://www.doordash.com/store/black-water-portland-887213/en-US" target="_blank">Black Water Bar Delivery at Doordash</a>
                     </div>
                 </div>
