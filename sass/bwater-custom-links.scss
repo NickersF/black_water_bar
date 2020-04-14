@@ -29,3 +29,30 @@
     color: $hinted_white;
     font-size: 1.875rem;
 }
+
+// Link buttons
+.bw-link-button {
+    background-color: $red;
+    color: $dark_grey;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    line-height: 28px;
+    margin: 4px 12px;
+    cursor: pointer;
+}
+
+.bw-link-button:hover {
+    background-color: $dark_grey;
+    color: $hinted_white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    line-height: 28px;
+    margin: 4px 12px;
+    cursor: pointer;
+}

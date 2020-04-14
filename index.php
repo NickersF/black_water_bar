@@ -7,10 +7,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Type Kit Integration (deprecated) -->
-    <!-- <script src="https://use.typekit.net/gnv4nco.js"></script>
-        <script>try{Typekit.load({ async: true });}catch(e){}</script> -->
-
     <!-- Calendar feed external -->
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <!-- Adobe Font integration -->
@@ -79,9 +75,6 @@
 
                         <!-- Start nav -->
                         <ul class="nav mono45-bold nav-link-size bw-nav">
-                            <!-- <li class="nav-item">
-                                    <a class="nav-link-padding" href="#header">HOME</a>
-                                </li> -->
                             <li class="nav-item">
                                 <a class="nav-link-padding" href="#drinks">DRINKS</a>
                             </li>
@@ -108,20 +101,14 @@
                         </h5>
                     </div>
                 </div>
-
-                <!-- Address row  (TODO: Move to bottom) -->
-                <div class="row header-menu-zero">
-                    <!-- Hold -->
-                </div>
             </div>
             <!-- End menu column -->
 
             <!-- Begin event column -->
             <div class="col event-base-padder">
                 <div class="row header-menu-zero event-color-inversion event-padder h-100">
-                    <div class="col header-menu-zero">
-                        <h4 class="mono45-bold">No Events Currently - Take Out Only.</h4>
-                        <!-- <h5 class="mono45-bold">Events currently canceled due to pandemic.</h5> -->
+                    <div class="col header-menu-zero align-items-center justify-content-center d-flex">
+                        <h3 class="mono45-bold d-flex">No Events Currently - Take Out Only.</h3>
                         <!-- <h5 id="eventlistsingle" class=" mono45-reg"></h5> -->
                     </div>
                 </div>
@@ -139,21 +126,32 @@
                 <img class="drink-svg-sizer img-fluid" src="./img/deliveries.svg">
             </div>
             <!-- Add button styles -->
-            <div class="col-lg-6 twelve-padder">
-                <div class="row body-row-pad-reset mono45-bold bw-nav text-center">
+            <div class="col-lg twelve-padder">
+                <div class="row body-row-pad-reset mono45-bold text-center">
                     <div class="col-lg-4 twelve-padder">
-                    <a href="https://blackwater.hrpos.heartland.us/ " target="_blank">Order Online Directly</a>
+                        <h4>Black Water Bar Direct Food Delivery</h4>
+                        <a href="https://blackwater.hrpos.heartland.us/ " target="_blank" class="bw-link-button">order now!</a>
                     </div>
                     <div class="col-lg-4 twelve-padder">
-                        <a href="https://www.pdxccc.com/restaurants.html" target="_blank">Black Water Bar Food Delivery at PDXCCC</a>
+                        <h4>Black Water Bar Food Delivery at PDXCCC</h4>
+                        <a href="https://www.pdxccc.com/restaurants.html" target="_blank" class="bw-link-button">order now!</a>
                     </div>
                     <div class="col-lg-4 twelve-padder">
-                        <a href="https://www.doordash.com/store/black-water-portland-887213/en-US" target="_blank">Black Water Bar Delivery at Doordash</a>
+                        <h4>Black Water Bar Food Delivery at Doordash</h4>
+                        <a href="https://www.doordash.com/store/black-water-portland-887213/en-US" target="_blank" class="bw-link-button">order now!</a>
+                    </div>
+                </div>
+                <div class="row text-center mono45-bold">
+                    <div class="col-lg twelve-padder">
+                        <h4>Delivery Hours:</h4>
+                        <h5 class="mb-0">Monday through friday: <span class="bw-red-text">4:00pm to 9:00pm</span></h5>
+                        <h5 class="mb-0">Saturday through sunday: <span class="bw-red-text">12:00pm to 9:00pm</span></h5>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- End deliveries container -->
 
     <!-- Begin food container -->
     <div id="food" class="container-fluid body-container-base">
@@ -224,7 +222,6 @@
 
             <div class="col twelve-padder text-center">
                 <!-- Client uploadable image field for drinks section -->
-                <!-- <img class="img-fluid right-side-border" src="./img/home-page-img/shot11.PNG"> -->
                 <?php perch_content('drinks_section_custom_image') ?>
             </div>
         </div>

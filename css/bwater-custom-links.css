@@ -34,4 +34,30 @@
   font-size: 1.875rem;
 }
 
+.bw-link-button {
+  background-color: #ca3535;
+  color: #1c1b1b;
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2rem;
+  line-height: 28px;
+  margin: 4px 12px;
+  cursor: pointer;
+}
+
+.bw-link-button:hover {
+  background-color: #1c1b1b;
+  color: #dcc7a9;
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2rem;
+  line-height: 28px;
+  margin: 4px 12px;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=bwater-custom-links.css.map */
